@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --purple-color: #7f5a83;
+  --violet-color: #0d324d;
+  --white-color: #ffffff;
+  --blue-color: #1c2042;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #72177c 0%, #1977b9 74%);
+  color: var(--blue-color);
+}
+
+.container {
+  height: 100;
+  width: 45%;
+  min-width: 40rem;
+  background-color: var(--white-color);
+  padding: 4rem 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.8rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+header {
+  min-height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+header .title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  margin-top: 20px; 
+  color: black;
+}
+
+.scores p {
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin-top: 20px;
+  color: black;
+}
+
+.weapons {
+  width: 90%;
+  position: relative;
+  bottom: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.weapons button {
+  background-color: black;
+  color: var(--white-color);
+  border: none;
+  font-size: 4rem;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.details {
+  margin: 5px;
+  text-align: center;
+  color: black;
+}
+
+#result {
+  width: 15rem;
+  padding: 1rem 0;
+  margin: 2.5rem auto;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-size: medium;
+}
+
+#user_choice,
+#computer_choice {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+span {
+  font-weight: 900;
+}
+
+.users {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+ 
