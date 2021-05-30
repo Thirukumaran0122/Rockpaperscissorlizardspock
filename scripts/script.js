@@ -3,13 +3,6 @@
 const result = document.getElementById('result');
 let [computer_score, user_score] = [0, 0];
 
-//When user clicks
-//generate a random choice of the computer languages
-//display choices
-//It should compare the com choice with user choice
-//it should show a message about
-//it should update the score
-
 let gameRules = {
   Rock: {
     Rock: 'draw',

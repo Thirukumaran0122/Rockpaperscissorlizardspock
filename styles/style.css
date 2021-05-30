@@ -25,6 +25,7 @@ body {
   background-color: #7f5a83;
   background-image: linear-gradient(315deg, #72177c 0%, #1977b9 74%);
   color: var(--blue-color);
+  
 }
 
 .container {
